@@ -1,0 +1,26 @@
+if (age >= 18) {
+    System.out.println("You are eligible to vote.");
+}
+
+
+if (grade >= 75) {
+    System.out.println("You passed!);
+} else {
+    System.out.println("You did not pass, see you next semester")
+}
+
+
+if (grade < 6) {
+    school = "Elementary";
+} else if (grade < 9) {
+    school = "Middle School";
+} else {
+    school = "High School";
+}
+
+
+switch (day) {
+    case "Monday": chore = "Laundry"; break;
+    case "Wednesday": chore = "Dishes"; break;
+    default: chore = "General Cleaning";
+}
